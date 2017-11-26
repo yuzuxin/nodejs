@@ -18,17 +18,7 @@ function grouping_count(collection) {
   }
   console.log(result);
     return result;
-  
-    //var i = 0;
-   // var info = {};
-   
-    //while (true){
-      //  if(i >= collection.length){
-        //  break;
-        //}
-     //   info[collection[i]] = collection.lastIndexOf(collection[i]) - collection.indexOf(collection[i]) + 1;
-       // i = collection.lastIndexOf(collection[i]) + 1;
-    //}
+
 }
 
 module.exports = grouping_count;
