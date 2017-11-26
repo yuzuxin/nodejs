@@ -1,5 +1,5 @@
  module.exports = function main(inputs) {
-     var result = [];  //购物清单物品名称
+     var result = []; 
      var datbase = require('../main/datbase');
      var loadAllItems = datbase.loadAllItems();
      var loadPromotions = datbase.loadPromotions();
@@ -35,6 +35,7 @@
          }
      }
      console.log(result);
+     //优惠
      for(var i =0; i < result.length; i++){
          for(var j = 0; j < loadPromotions.length;j++){
              var barcodes = loadPromotions[j].barcodes;
