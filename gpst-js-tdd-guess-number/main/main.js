@@ -1,4 +1,3 @@
-// Write your cade below:
 module.exports = function main(random, input){
 	let result = "";
 	let collectionA = equal(random, input);

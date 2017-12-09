@@ -2,7 +2,7 @@ const main = require('../main/main');
 
 describe('main()', () => {
 
-	it("Check no position is correct but all numbers of inputs are right", () => {
+	it("the first case", () => {
 		let random = "1234";
 		let input = "4321";
 		let result = main(random, input);
@@ -10,7 +10,7 @@ describe('main()', () => {
 	});
 
 
-	it("Check no position is correct but three numbers of inputs are right", () => {
+	it("the second case", () => {
 		let random = "1234";
 		let input = "0321";
 		let result = main(random, input);
@@ -18,7 +18,7 @@ describe('main()', () => {
 	});
 
 
-	it("Check no position is correct but two numbers of inputs are right", () => {
+	it("the third case", () => {
 		let random = "1234";
 		let input = "0021";
 		let result = main(random, input);
@@ -26,7 +26,7 @@ describe('main()', () => {
 	});
 
 
-	it("Check no position is correct but one number of inputs are right", () => {
+	it("the forth case", () => {
 		let random = "1234";
 		let input = "0001";
 		let result = main(random, input);
@@ -34,7 +34,7 @@ describe('main()', () => {
 	});
 
 
-	it("check both the numbers and position are not correct", () => {
+	it("the fifth case", () => {
 		let random = "1234";
 		let input = "0000";
 		let result = main(random, input);
@@ -42,7 +42,7 @@ describe('main()', () => {
 	});
 
 
-	it("Check one position is correct and three numbers of inputs are right", () => {
+	it("the sixth case", () => {
 		let random = "1234";
 		let input = "1423";
 		let result = main(random, input);
@@ -50,7 +50,7 @@ describe('main()', () => {
 	});
 
 
-	it("Check one position is correct and two numbers of inputs are right", () => {
+	it("the seventh case", () => {
 		let random = "1234";
 		let input = "1043";
 		let result = main(random, input);
@@ -58,7 +58,7 @@ describe('main()', () => {
 	});
 
 
-	it("Check one position is correct and one numbers of inputs are right", () => {
+	it("the eighth case", () => {
 		let random = "1234";
 		let input = "1003";
 		let result = main(random, input);
@@ -66,7 +66,7 @@ describe('main()', () => {
 	});
 
 
-	it("Check one position is correct and zero numbers of inputs are right", () => {
+	it("the ninth case", () => {
 		let random = "1234";
 		let input = "1000";
 		let result = main(random, input);
@@ -74,7 +74,7 @@ describe('main()', () => {
 	});
 
 
-	it("Check two position are correct and two numbers of inputs are right", () => {
+	it("the tenth case", () => {
 		let random = "1234";
 		let input = "1243";
 		let result = main(random, input);
@@ -82,7 +82,7 @@ describe('main()', () => {
 	});
 
 
-	it("Check two position are correct and one numbers of inputs are right", () => {
+	it("the eleventh case", () => {
 		let random = "1234";
 		let input = "1203";
 		let result = main(random, input);
@@ -90,7 +90,7 @@ describe('main()', () => {
 	});
 
 
-	it("Check two position are correct and no numbers of inputs are right", () => {
+	it("the twlfth case", () => {
 		let random = "1234";
 		let input = "1200";
 		let result = main(random, input);
@@ -99,7 +99,7 @@ describe('main()', () => {
 
 	//3A1B不存在
 
-	it("Check three position are correct and no numbers of inputs are right", () => {
+	it("the thirteenth case", () => {
 		let random = "1234";
 		let input = "1230";
 		let result = main(random, input);
@@ -108,7 +108,7 @@ describe('main()', () => {
 
 
 
-	it("Check all position are correct but none of the inputs are right", () => {
+	it("the fourteenth case", () => {
 		let random = "1234";
 		let input = "1234";
 		let result = main(random, input);
