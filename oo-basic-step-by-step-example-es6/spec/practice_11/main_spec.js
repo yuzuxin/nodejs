@@ -165,8 +165,7 @@ describe("Class", () => {
 
             const student = new Student(1, "Jerry", 21, otherKlass);
 
-            expect(student.klass).to.equal(otherKlass);
-
+            expect(student.klass).to.equal(otherKlass)
             klass.appendMember(student);
 
             expect(student.klass).to.equal(klass);
